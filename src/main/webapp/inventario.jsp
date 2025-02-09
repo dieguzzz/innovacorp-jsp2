@@ -27,7 +27,7 @@
                 <td>${item.cantidad}</td>
                 <td>${item.fechaActualizacion}</td>
                 <td>
-                    <form action="actualizarInventario" method="post" style="display:inline;">
+                    <form action="inventario" method="post" style="display:inline;">
                         <input type="hidden" name="id" value="${item.id}">
                         <input type="number" name="cantidad" value="${item.cantidad}" required>
                         <button type="submit">Actualizar</button>
